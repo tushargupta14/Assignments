@@ -9,7 +9,7 @@ import re
 # Obtaining a list of all text files in the directory 
 
 # Insert path to directory containing text files
-path_to_directory  = "/home/tushar/internships/"
+path_to_directory  = "/target_directory/../"
 
 for dirs,subdirs,files in os.walk(path_to_directory):
 	for filename in files:
